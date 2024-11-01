@@ -45,17 +45,20 @@ Model Testing & Results: -
 After data preparation, I tested several algorithms to identify the best-performing model for cancer detection –
 
 •	Logistic Regression: -
-Accuracy = 64.87%
-Confusion Matrix = [[60, 4, 3], [84, 292, 71], [46, 72, 165]]
-Classification Report: Precision = 32% (Class 0); 79% (Class 1); 69% (Class 2); 
-Recall: 90% (Class 0); 65% (Class 1); 58% (Class 2); 
+Accuracy = 67.87%
+Confusion Matrix = [[60, 5, 2], [89, 300, 58], [37, 65, 181]]
+Classification Report: Precision = 32% (Class 0); 81% (Class 1); 75% (Class 2); 
+Recall: 90% (Class 0); 67% (Class 1); 64% (Class 2); 
+F1-Score: 47% (Class 0); 73% (Class 1); 69% (Class 2);
 
 •	Decision Tree Classifier: -
 Accuracy = 99.75%
 Confusion Matrix =  [[66, 1, 0], [0, 446, 1], [0, 0, 283]]
+Classification Report: Precision = 100% (Class 0); 100% (Class 1); 100% (Class 2); 
+Recall: 99% (Class 0); 100% (Class 1); 100% (Class 2); 
+F1-Score: 99% (Class 0); 100% (Class 1); 100% (Class 2);
 
-•	Classification Report: -
-Perfect precision, Recall and F1-Scores across all classes.
+In the Classification Report for Decision tree Classifier is Precision, Recall and F1-Scores across all classes are perfect.
 
 Conclusion: -
 This project has been a fantastic journey in applying data science, statistical analysis and machine learning techniques to support early cancer detection, potentially improving outcomes for those at risk of Esophageal Cancer.
